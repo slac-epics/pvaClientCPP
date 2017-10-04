@@ -10,4 +10,6 @@ envPaths
 configure/*.local
 !configure/ExampleRELEASE.local
 **/O.*
+*.log
 QtC-*
+RELEASE_SITE

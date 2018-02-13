@@ -15,7 +15,7 @@
 # Define the version strings for all needed modules
 # ==========================================================
 NORMATIVE_MODULE_VERSION	= R5.2.0-0.0.1
-PVACCESS_MODULE_VERSION		= R6.0.0-0.0.2
+PVACCESS_MODULE_VERSION		= R6.0.0-0.2.0
 PVDATA_MODULE_VERSION		= R7.0.0-0.0.1
 
 # ==========================================================

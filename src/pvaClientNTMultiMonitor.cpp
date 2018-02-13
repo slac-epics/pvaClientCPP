@@ -10,13 +10,13 @@
  */
 
 #include <epicsThread.h>
-#include <pv/standardField.h>
-#include <pv/convert.h>
+#include "pv/standardField.h"
+#include "pv/convert.h"
 #include <epicsMath.h>
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClientMultiChannel.h>
+#include "pv/pvaClientMultiChannel.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

@@ -12,12 +12,12 @@
 #include <typeinfo>
 #include <sstream>
 
-#include <pv/createRequest.h>
-#include <pv/convert.h>
+#include "pv/createRequest.h"
+#include "pv/convert.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

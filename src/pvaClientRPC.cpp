@@ -10,13 +10,13 @@
  */
 
 #include <sstream>
-#include <pv/event.h>
-#include <pv/bitSetUtil.h>
-#include <pv/rpcService.h>
+#include "pv/event.h"
+#include "pv/bitSetUtil.h"
+#include "pv/rpcService.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

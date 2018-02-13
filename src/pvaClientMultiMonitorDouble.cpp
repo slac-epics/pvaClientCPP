@@ -14,7 +14,7 @@
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClientMultiChannel.h>
+#include "pv/pvaClientMultiChannel.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

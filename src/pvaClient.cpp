@@ -10,13 +10,13 @@
  */
 
 #include <map>
-#include <pv/createRequest.h>
-#include <pv/clientFactory.h>
-#include <pv/caProvider.h>
+#include "pv/createRequest.h"
+#include "pv/clientFactory.h"
+#include "pv/caProvider.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

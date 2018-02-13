@@ -10,12 +10,12 @@
  */
 
 #include <map>
-#include <pv/event.h>
-#include <pv/lock.h>
+#include "pv/event.h"
+#include "pv/lock.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClientMultiChannel.h>
+#include "pv/pvaClientMultiChannel.h"
 
 using namespace epics::pvData;
 using namespace epics::pvAccess;

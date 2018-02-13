@@ -13,7 +13,7 @@
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClientMultiChannel.h>
+#include "pv/pvaClientMultiChannel.h"
 
 using std::tr1::static_pointer_cast;
 using namespace epics::pvData;

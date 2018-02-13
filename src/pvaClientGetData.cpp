@@ -12,12 +12,12 @@
 #include <typeinfo>
 #include <sstream>
 
-#include <pv/createRequest.h>
-#include <pv/convert.h>
+#include "pv/createRequest.h"
+#include "pv/convert.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using std::tr1::static_pointer_cast;
 using namespace epics::pvData;

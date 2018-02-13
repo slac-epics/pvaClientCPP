@@ -10,13 +10,13 @@
  */
 
 #include <map>
-#include <pv/event.h>
-#include <pv/lock.h>
-#include <pv/createRequest.h>
+#include "pv/event.h"
+#include "pv/lock.h"
+#include "pv/createRequest.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using std::tr1::static_pointer_cast;
 using namespace epics::pvData;

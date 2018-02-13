@@ -16,8 +16,8 @@
 #   undef epicsExportSharedSymbols
 #endif
 
-#include <pv/ntmultiChannel.h>
-#include <pv/createRequest.h>
+#include "pv/ntmultiChannel.h"
+#include "pv/createRequest.h"
 
 #ifdef pvaClientMultiChannelEpicsExportSharedSymbols
 #   define epicsExportSharedSymbols
@@ -25,7 +25,7 @@
 #endif
 
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 
 namespace epics { namespace pvaClient { 

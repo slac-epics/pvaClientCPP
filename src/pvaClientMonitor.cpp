@@ -10,12 +10,12 @@
  */
 
 #include <sstream>
-#include <pv/event.h>
-#include <pv/bitSetUtil.h>
+#include "pv/event.h"
+#include "pv/bitSetUtil.h"
 
 #define epicsExportSharedSymbols
 
-#include <pv/pvaClient.h>
+#include "pv/pvaClient.h"
 
 using std::tr1::static_pointer_cast;
 using std::tr1::dynamic_pointer_cast;
